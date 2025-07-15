@@ -70,9 +70,9 @@ Below is a table displaying the compressed images from `Sample2_FFT_Image_Compre
 
 | Compressed Image | Magnitude Plot |
 |:----------------:|:--------------:|
-| ![Compressed Image 1](assets/FFT/Sample2_Compressed1.png) | ![Magnitude 1](assets/FFT/Sample2_Compressed1_magnitude.png) |
-| ![Compressed Image 2](assets/FFT/Sample2_Compressed2.png) | ![Magnitude 2](assets/FFT/Sample2_Compressed2_magnitude.png) |
-| ![Compressed Image 3](assets/FFT/Sample2_Compressed3.png) | ![Magnitude 3](assets/FFT/Sample2_Compressed3_magnitude.png) |
+| <img src="assets/FFT/Sample2_Compressed1.png" width="150"/> | <img src="assets/FFT/Sample2_Compressed1_magnitude.png" width="150"/> |
+| <img src="assets/FFT/Sample2_Compressed2.png" width="150"/> | <img src="assets/FFT/Sample2_Compressed2_magnitude.png" width="150"/> |
+| <img src="assets/FFT/Sample2_Compressed3.png" width="150"/> | <img src="assets/FFT/Sample2_Compressed3_magnitude.png" width="150"/> |
 
 *Each compressed image is directly above its corresponding FFT magnitude plot. Images are located in `assets/FFT/`. Update the filenames as needed to match your actual results.*
 
