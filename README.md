@@ -2,6 +2,14 @@
 
 This project demonstrates image compression techniques using two fundamental transforms: the Discrete Wavelet Transform (DWT) and the Fast Fourier Transform (FFT). It provides Jupyter notebooks and sample assets to visualize, experiment with, and understand the effects of these transforms on image compression and reconstruction.
 
+In this project, two sample images are used: `sample1.jpg`, which is a standard image to visualize the compression process, and `sample2.jpg`, which is a brain MRI image.
+
+| Sample 1 | Sample 2 |
+|----------|----------|
+| ![Sample 1](assets/sample1.jpg) | ![Sample 2](assets/sample2.jpg) |
+
+
+
 ## Features
 - **DWT Image Compression:**
   - Visualizes DWT coefficients and their partitioning.
@@ -51,9 +59,38 @@ pip install numpy matplotlib imageio scikit-image jupyter
    - `Sample1_FFT_Image_Compression.ipynb`, `Sample2_FFT_Image_Compression.ipynb`, and `FFT_magnitude.ipynb` for FFT-based compression and analysis.
 4. **Explore the `assets/` directory** for sample images and results.
 
-## Example Results
+## Results
 - DWT: See `assets/DWT/` for original, coefficient, and compressed images.
 - FFT: See `assets/FFT/` for original, magnitude, and compressed images.
+
+
+## Sample2 FFT Compressed Images and Magnitude
+
+Below is a table displaying the compressed images from `Sample2_FFT_Image_Compression.ipynb` and their corresponding FFT magnitude visualizations. Each compressed image is shown above its magnitude plot.
+
+| Compressed Image | Magnitude Plot |
+|:----------------:|:--------------:|
+| ![Compressed Image 1](assets/FFT/sample2_compressed_1.png) | ![Magnitude 1](assets/FFT/sample2_magnitude_1.png) |
+| ![Compressed Image 2](assets/FFT/sample2_compressed_2.png) | ![Magnitude 2](assets/FFT/sample2_magnitude_2.png) |
+| ![Compressed Image 3](assets/FFT/sample2_compressed_3.png) | ![Magnitude 3](assets/FFT/sample2_magnitude_3.png) |
+
+*Each compressed image is directly above its corresponding FFT magnitude plot. Images are located in `assets/FFT/`. Update the filenames as needed to match your actual results.*
+
+
+## Sample1 DWT Compressed Images
+
+Below is a table displaying the original, DWT coefficients, and compressed images from `Sample1_DWT_Image_Compression.ipynb`. All images are located in `assets/DWT/`.
+
+| Original Image | DWT Coefficients | Compressed Image |
+|:--------------:|:----------------:|:----------------:|
+| ![Original](assets/assets/sample1.jpg) | ![Coefficients](assets/DWT/sample1_coefficients.png) | ![Compressed](assets/DWT/sample1_compressed.png) |
+
+*Update the filenames as needed to match your actual results. The images above illustrate the DWT process for Sample 1: the original image, its wavelet coefficients, and the final compressed output.*
+
+
+
+
+
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
