@@ -6,7 +6,7 @@ In this project, two sample images are used: `sample1.jpg`, which is a standard 
 
 | Sample 1 | Sample 2 |
 |----------|----------|
-| ![Sample 1](assets/sample1.jpg) | ![Sample 2](assets/sample2.jpg) |
+| ![Sample 1](assets/Sample1.jpg) | ![Sample 2](assets/Sample2.jpg) |
 
 
 
@@ -70,9 +70,9 @@ Below is a table displaying the compressed images from `Sample2_FFT_Image_Compre
 
 | Compressed Image | Magnitude Plot |
 |:----------------:|:--------------:|
-| ![Compressed Image 1](assets/FFT/sample2_compressed_1.png) | ![Magnitude 1](assets/FFT/sample2_magnitude_1.png) |
-| ![Compressed Image 2](assets/FFT/sample2_compressed_2.png) | ![Magnitude 2](assets/FFT/sample2_magnitude_2.png) |
-| ![Compressed Image 3](assets/FFT/sample2_compressed_3.png) | ![Magnitude 3](assets/FFT/sample2_magnitude_3.png) |
+| ![Compressed Image 1](assets/FFT/Sample2_Compressed1.png) | ![Magnitude 1](assets/FFT/Sample2_Compressed1_magnitude.png) |
+| ![Compressed Image 2](assets/FFT/Sample2_Compressed2.png) | ![Magnitude 2](assets/FFT/Sample2_Compressed2_magnitude.png) |
+| ![Compressed Image 3](assets/FFT/Sample2_Compressed3.png) | ![Magnitude 3](assets/FFT/Sample2_Compressed3_magnitude.png) |
 
 *Each compressed image is directly above its corresponding FFT magnitude plot. Images are located in `assets/FFT/`. Update the filenames as needed to match your actual results.*
 
@@ -83,7 +83,7 @@ Below is a table displaying the original, DWT coefficients, and compressed image
 
 | Original Image | DWT Coefficients | Compressed Image |
 |:--------------:|:----------------:|:----------------:|
-| ![Original](assets/assets/sample1.jpg) | ![Coefficients](assets/DWT/sample1_coefficients.png) | ![Compressed](assets/DWT/sample1_compressed.png) |
+| ![Original](assets/Sample1.jpg) | ![Coefficients](assets/DWT/Sample1_DWT_coefficients.png) | ![Compressed](assets/DWT/Sample1_Compressed1.png) |
 
 *Update the filenames as needed to match your actual results. The images above illustrate the DWT process for Sample 1: the original image, its wavelet coefficients, and the final compressed output.*
 
