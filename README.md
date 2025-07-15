@@ -84,7 +84,6 @@ Below is a table displaying the original, DWT coefficients, and compressed image
 |:--------------:|:----------------:|:----------------:|
 | ![Original](assets/Sample1.jpg) | ![Coefficients](assets/DWT/Sample1_DWT_coefficients.png) | ![Compressed](assets/DWT/Sample1_Compressed1.png) |
 
-*Update the filenames as needed to match your actual results. The images above illustrate the DWT process for Sample 1: the original image, its wavelet coefficients, and the final compressed output.*
 
 
 
